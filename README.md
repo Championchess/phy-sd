@@ -43,6 +43,7 @@ For Support Relation and Depth: https://cs.nyu.edu/~silberman/datasets/nyu_depth
 ## Download Our Datasets
 
 ![image4](./images/4.png)
+Row 1 for **Occlusion** and Row 2 for **Depth** 
 
 ### Depth
 <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_img_name_list.zip" target="_blank">Train/Val/Test Image Names</a> | <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_region_pair.zip" target="_blank">Regions and Pairs</a>
@@ -58,7 +59,7 @@ python SVM/depth_train_test_svm.py
 ## Experiment Results
 ![image5](./images/table1.png)
 ![image6](./images/table2.png)
-![image7](./images/table3.png)
+![image7](./images/table4.png)
 
 
 ## Citation
