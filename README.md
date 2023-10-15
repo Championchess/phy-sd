@@ -1,8 +1,11 @@
 # What Does Stable Diffusion Know about the 3D Scene?
 
 This is the official implementation of 2023 paper "What Does Stable Diffusion Know about the 3D Scene" by <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan</a>, <a href="https://chuanxiaz.com" target="_blank">Chuanxia Zheng</a>, <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a>, and <a href="https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en" target="_blank">Andrew Zisserman</a>, including the datasets about different physical properties introduced in the paper.
-![image1](./images/img1.png)
-![image2](./images/img2.png)
+
+![image1](./images/1.png)
+
+- [paper link](https://arxiv.org/pdf/2310.06836.pdf)
+- [project page](https://www.robots.ox.ac.uk/~vgg/research/phy-sd/)
 
 
 ## Installation (Python 3.8.8 + Numpy 1.20.1 + PyTorch 1.13.1)
@@ -39,6 +42,8 @@ For Support Relation and Depth: https://cs.nyu.edu/~silberman/datasets/nyu_depth
 
 ## Download Our Datasets
 
+![image4](./images/4.png)
+
 ### Depth
 <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_img_name_list.zip" target="_blank">Train/Val/Test Image Names</a> | <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_region_pair.zip" target="_blank">Regions and Pairs</a>
 
@@ -48,6 +53,12 @@ For Support Relation and Depth: https://cs.nyu.edu/~silberman/datasets/nyu_depth
 ```
 python SVM/depth_train_test_svm.py
 ```
+
+
+## Experiment Results
+![image5](./images/table1.png)
+![image6](./images/table2.png)
+![image7](./images/table3.png)
 
 
 ## Citation
