@@ -18,30 +18,35 @@ pip install scikit-image
 
 
 ## Extract Stable Diffusion Feature
+Clone the github https://github.com/Tsingularity/dift/tree/main, and put the files under `dift/` of this github. Use `dift/dift_sd.py` in this github to replace `src/models/dift_sd.py`. Then fill in the paths and
 
 ```
-python xxx.py
+python dift/extract_dift_depth.py
 ```
 
 
 ## Download Original Datasets
 For Same Plane and Perpendicular Plane: https://github.com/NVlabs/planercnn
+
 For Material: https://github.com/apple/ml-dms-dataset
+
 For Shadow: https://github.com/stevewongv/InstanceShadowDetection
+
 For Occlusion: https://github.com/Championchess/A-Tri-Layer-Plugin-to-Improve-Occluded-Detection/tree/master and https://cocodataset.org/#home
+
 For Support Relation and Depth: https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html
 
 
 ## Download Our Datasets
 
 ### Depth
-<a href="https://championchess.github.io/" target="_blank">Train/Val/Test Image Names</a> | <a href="https://championchess.github.io/" target="_blank">Regions and Pairs</a>
+<a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_img_name_list.zip" target="_blank">Train/Val/Test Image Names</a> | <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_region_pair.zip" target="_blank">Regions and Pairs</a>
 
 
 ## Train and Test Linear SVM
 ### Depth
 ```
-python xxx.py
+python SVM/depth_train_test_svm.py
 ```
 
 
