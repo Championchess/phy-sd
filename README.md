@@ -1,6 +1,6 @@
 # What Does Stable Diffusion Know about the 3D Scene?
 
-This is the official implementation of 2023 paper "What Does Stable Diffusion Know about the 3D Scene" by <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan</a>, <a href="https://chuanxiaz.com" target="_blank">Chuanxia Zheng</a>, <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a>, and <a href="https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en" target="_blank">Andrew Zisserman</a>, including the datasets about different physical properties introduced in the paper.
+This is the official implementation of 2024 paper "What Does Stable Diffusion Know about the 3D Scene" by <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan</a>, <a href="https://chuanxiaz.com" target="_blank">Chuanxia Zheng</a>, <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a>, and <a href="https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en" target="_blank">Andrew Zisserman</a>, including the datasets about different physical properties introduced in the paper.
 
 ![image1](./images/1.png)
 
@@ -65,10 +65,10 @@ python SVM/depth_train_test_svm.py
 ## Citation
 Please cite our paper if you use the code/model/dataset of this github.
 ```
-@article{zhan23physd,
+@article{zhan24physd,
 author       = "Guanqi Zhan and Chuanxia Zheng and Weidi Xie and Andrew Zisserman",
 title        = "What Does Stable Diffusion Know about the 3D Scene?",
 booktitle    = "arXiv",
-year         = "2023",
+year         = "2024",
 }
 ```
