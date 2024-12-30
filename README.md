@@ -1,6 +1,6 @@
-# What Does Stable Diffusion Know about the 3D Scene?
+# What Does Stable Diffusion Know about the 3D Scene? A General Protocol to Probe Large Vision Models for 3D Physical Understanding
 
-This is the official implementation of 2024 paper "What Does Stable Diffusion Know about the 3D Scene" by <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan</a>, <a href="https://chuanxiaz.com" target="_blank">Chuanxia Zheng</a>, <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a>, and <a href="https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en" target="_blank">Andrew Zisserman</a>, including the datasets about different physical properties introduced in the paper.
+This is the official implementation of the NeurIPS 2024 paper "What Does Stable Diffusion Know about the 3D Scene? A General Protocol to Probe Large Vision Models for 3D Physical Understanding" by <a href="https://www.robots.ox.ac.uk/~guanqi/" target="_blank">Guanqi Zhan</a>, <a href="https://chuanxiaz.com" target="_blank">Chuanxia Zheng</a>, <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a>, and <a href="https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en" target="_blank">Andrew Zisserman</a>, including the dataset about the physical property introduced in the paper.
 
 ![image1](./images/1.png)
 
@@ -46,7 +46,7 @@ For Support Relation and Depth: https://cs.nyu.edu/~silberman/datasets/nyu_depth
 Row 1 for **Occlusion** and Row 2 for **Depth** 
 
 ### Depth
-<a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_img_name_list.zip" target="_blank">Train/Val/Test Image Names</a> | <a href="https://www.robots.ox.ac.uk/~vgg/research/phy-sd/datasets/depth_region_pair.zip" target="_blank">Regions and Pairs</a>
+<a href="https://drive.google.com/file/d/1jZi9xJoPOe-bvHpAx_jeul5pCNB8rgtT/view?usp=drive_link" target="_blank">Train/Val/Test Image Names</a> | <a href="https://drive.google.com/file/d/1hH_8ZrlN_FiXj0NRB-MUpeTMpjX2OFvB/view?usp=sharing" target="_blank">Regions and Pairs</a>
 
 
 ## Train and Test Linear SVM
@@ -63,12 +63,18 @@ python SVM/depth_train_test_svm.py
 
 
 ## Citation
-Please cite our paper if you use the code/model/dataset of this github.
+Please cite our papers if you use the code/model/dataset of this github.
 ```
-@article{zhan24physd,
-author       = "Guanqi Zhan and Chuanxia Zheng and Weidi Xie and Andrew Zisserman",
-title        = "What Does Stable Diffusion Know about the 3D Scene?",
-booktitle    = "arXiv",
-year         = "2024",
+@article{zhan2023does,
+  title={What Does Stable Diffusion Know about the 3D Scene?},
+  author={Zhan, Guanqi and Zheng, Chuanxia and Xie, Weidi and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:2310.06836},
+  year={2023}
+}
+@inproceedings{zhan2024general,
+  title={A general protocol to probe large vision models for 3d physical understanding},
+  author={Zhan, Guanqi and Zheng, Chuanxia and Xie, Weidi and Zisserman, Andrew},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+  year={2024}
 }
 ```
